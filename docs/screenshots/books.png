@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <filter id="shadow1"><feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.05"/></filter>
+    <filter id="shadow2"><feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.08"/></filter>
+    <linearGradient id="progressBlue2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#60a5fa"/></linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="#f1f5f9"/>
+
+  <!-- Browser Chrome -->
+  <rect x="0" y="0" width="1200" height="36" fill="#e2e8f0"/>
+  <rect x="0" y="36" width="1200" height="1" fill="#cbd5e1"/>
+  <circle cx="16" cy="18" r="5" fill="#ef4444"/>
+  <circle cx="30" cy="18" r="5" fill="#f59e0b"/>
+  <circle cx="44" cy="18" r="5" fill="#10b981"/>
+  <rect x="120" y="10" width="300" height="16" rx="8" fill="#cbd5e1"/>
+  <text x="270" y="22" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">localhost:3000/books</text>
+
+  <!-- Sidebar -->
+  <rect x="0" y="37" width="256" height="763" fill="#1a1a2e"/>
+  <circle cx="128" cy="85" r="28" fill="#e94560" opacity="0.15"/>
+  <circle cx="128" cy="85" r="24" fill="#1a1a2e" stroke="#e94560" stroke-width="2"/>
+  <text x="128" y="91" font-family="Arial, sans-serif" font-size="18" fill="#e94560" text-anchor="middle" font-weight="bold">RS</text>
+  <text x="128" y="130" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">Remco Stroop</text>
+  <text x="128" y="148" font-family="Arial, sans-serif" font-size="9" fill="#e94560" text-anchor="middle" letter-spacing="1">PROGRESS TO SUCCESS</text>
+  <line x1="40" y1="160" x2="216" y2="160" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <g font-family="Arial, sans-serif" font-size="13" fill="#a0aec0">
+    <text x="48" y="201">Dashboard</text>
+    <text x="48" y="247">Daily Log</text>
+    <text x="48" y="293">Life in Weeks</text>
+    <text x="48" y="339">Finances</text>
+    <text x="48" y="385">Trading</text>
+    <text x="48" y="431">Business</text>
+    <text x="48" y="477">Growth</text>
+    <text x="48" y="523">Mental</text>
+    <text x="48" y="569">Relationships</text>
+    <!-- Books - Active -->
+    <rect x="12" y="590" width="232" height="36" rx="6" fill="#e94560" opacity="0.15"/>
+    <text x="48" y="613" fill="#e94560" font-weight="bold">Books</text>
+  </g>
+
+  <g>
+    <rect x="28" y="191" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="237" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="283" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="329" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="375" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="421" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="467" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="513" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="559" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="603" width="12" height="12" rx="3" fill="#e94560"/>
+  </g>
+
+  <!-- Main content -->
+  <rect x="256" y="37" width="944" height="763" fill="#f8fafc"/>
+
+  <!-- PageHeader -->
+  <rect x="256" y="37" width="944" height="90" fill="#ffffff" filter="url(#shadow1)"/>
+  <rect x="280" y="55" width="76" height="18" rx="9" fill="#e94560" opacity="0.1"/>
+  <text x="318" y="68" font-family="Arial, sans-serif" font-size="10" fill="#e94560" text-anchor="middle" font-weight="bold">KNOWLEDGE</text>
+  <text x="280" y="100" font-family="Arial, sans-serif" font-size="22" fill="#111827" font-weight="bold">Book Tracker</text>
+  <text x="280" y="118" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">Track what you're reading, want to read, and have finished.</text>
+
+  <!-- Add book button -->
+  <rect x="1040" y="74" width="130" height="30" rx="8" fill="#e94560"/>
+  <text x="1105" y="94" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">+ Add book</text>
+
+  <!-- 4 Summary Cards -->
+  <rect x="280" y="155" width="205" height="75" rx="10" fill="#ffffff" filter="url(#shadow2)"/>
+  <text x="300" y="178" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Finished</text>
+  <text x="300" y="202" font-family="Arial, sans-serif" font-size="22" fill="#111827" font-weight="bold">8</text>
+
+  <rect x="500" y="155" width="205" height="75" rx="10" fill="#ffffff" filter="url(#shadow2)"/>
+  <text x="520" y="178" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Reading Now</text>
+  <text x="520" y="202" font-family="Arial, sans-serif" font-size="22" fill="#111827" font-weight="bold">3</text>
+
+  <rect x="720" y="155" width="205" height="75" rx="10" fill="#ffffff" filter="url(#shadow2)"/>
+  <text x="740" y="178" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Pages Read</text>
+  <text x="740" y="202" font-family="Arial, sans-serif" font-size="22" fill="#111827" font-weight="bold">2,847</text>
+
+  <rect x="940" y="155" width="205" height="75" rx="10" fill="#ffffff" filter="url(#shadow2)"/>
+  <text x="960" y="178" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Avg Rating</text>
+  <text x="960" y="202" font-family="Arial, sans-serif" font-size="22" fill="#111827" font-weight="bold">4.2★</text>
+
+  <!-- Kanban Board -->
+  <!-- Column 1: Reading -->
+  <rect x="280" y="255" width="280" height="420" rx="10" fill="#ffffff" filter="url(#shadow2)"/>
+  <text x="300" y="280" font-family="Arial, sans-serif" font-size="15" fill="#111827" font-weight="bold">Reading</text>
+  <text x="530" y="280" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="end">2</text>
+  <rect x="300" y="290" width="240" height="1" fill="#e5e7eb"/>
+
+  <!-- Book 1 -->
+  <rect x="300" y="305" width="240" height="120" rx="8" fill="#f8fafc" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="316" y="320" width="36" height="48" rx="4" fill="#3b82f6" opacity="0.2"/>
+  <text x="334" y="350" font-family="Arial, sans-serif" font-size="12" fill="#3b82f6" text-anchor="middle" font-weight="bold">T</text>
+  <text x="364" y="336" font-family="Arial, sans-serif" font-size="13" fill="#111827" font-weight="bold">Thinking, Fast and Slow</text>
+  <text x="364" y="354" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">Daniel Kahneman</text>
+  <rect x="316" y="380" width="208" height="6" rx="3" fill="#e5e7eb"/>
+  <rect x="316" y="380" width="125" height="6" rx="3" fill="url(#progressBlue2)"/>
+  <text x="316" y="400" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">60% — 312 pages</text>
+
+  <!-- Book 2 -->
+  <rect x="300" y="435" width="240" height="120" rx="8" fill="#f8fafc" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="316" y="450" width="36" height="48" rx="4" fill="#8b5cf6" opacity="0.2"/>
+  <text x="334" y="480" font-family="Arial, sans-serif" font-size="12" fill="#8b5cf6" text-anchor="middle" font-weight="bold">M</text>
+  <text x="364" y="466" font-family="Arial, sans-serif" font-size="13" fill="#111827" font-weight="bold">Meditations</text>
+  <text x="364" y="484" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">Marcus Aurelius</text>
+  <rect x="316" y="510" width="208" height="6" rx="3" fill="#e5e7eb"/>
+  <rect x="316" y="510" width="83" height="6" rx="3" fill="url(#progressBlue2)"/>
+  <text x="316" y="530" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">40% — 104 pages</text>
+
+  <!-- Column 2: To Read -->
+  <rect x="580" y="255" width="280" height="420" rx="10" fill="#ffffff" filter="url(#shadow2)"/>
+  <text x="600" y="280" font-family="Arial, sans-serif" font-size="15" fill="#111827" font-weight="bold">To Read</text>
+  <text x="830" y="280" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="end">3</text>
+  <rect x="600" y="290" width="240" height="1" fill="#e5e7eb"/>
+
+  <!-- Book 3 -->
+  <rect x="600" y="305" width="240" height="80" rx="8" fill="#f8fafc" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="616" y="318" width="32" height="44" rx="4" fill="#10b981" opacity="0.2"/>
+  <text x="632" y="346" font-family="Arial, sans-serif" font-size="11" fill="#10b981" text-anchor="middle" font-weight="bold">D</text>
+  <text x="660" y="336" font-family="Arial, sans-serif" font-size="13" fill="#111827" font-weight="bold">Deep Work</text>
+  <text x="660" y="354" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">Cal Newport</text>
+
+  <!-- Book 4 -->
+  <rect x="600" y="395" width="240" height="80" rx="8" fill="#f8fafc" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="616" y="408" width="32" height="44" rx="4" fill="#f59e0b" opacity="0.2"/>
+  <text x="632" y="436" font-family="Arial, sans-serif" font-size="11" fill="#f59e0b" text-anchor="middle" font-weight="bold">A</text>
+  <text x="660" y="426" font-family="Arial, sans-serif" font-size="13" fill="#111827" font-weight="bold">Atomic Habits</text>
+  <text x="660" y="444" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">James Clear</text>
+
+  <!-- Book 5 -->
+  <rect x="600" y="485" width="240" height="80" rx="8" fill="#f8fafc" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="616" y="498" width="32" height="44" rx="4" fill="#ef4444" opacity="0.2"/>
+  <text x="632" y="526" font-family="Arial, sans-serif" font-size="11" fill="#ef4444" text-anchor="middle" font-weight="bold">S</text>
+  <text x="660" y="516" font-family="Arial, sans-serif" font-size="13" fill="#111827" font-weight="bold">Sapiens</text>
+  <text x="660" y="534" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">Yuval Noah Harari</text>
+
+  <!-- Column 3: Finished -->
+  <rect x="880" y="255" width="280" height="420" rx="10" fill="#ffffff" filter="url(#shadow2)"/>
+  <text x="900" y="280" font-family="Arial, sans-serif" font-size="15" fill="#111827" font-weight="bold">Finished</text>
+  <text x="1130" y="280" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="end">3</text>
+  <rect x="900" y="290" width="240" height="1" fill="#e5e7eb"/>
+
+  <!-- Book 6 -->
+  <rect x="900" y="305" width="240" height="105" rx="8" fill="#f8fafc" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="916" y="318" width="32" height="44" rx="4" fill="#10b981" opacity="0.15"/>
+  <text x="932" y="346" font-family="Arial, sans-serif" font-size="11" fill="#10b981" text-anchor="middle" font-weight="bold">7</text>
+  <text x="960" y="336" font-family="Arial, sans-serif" font-size="13" fill="#111827" font-weight="bold">The 7 Habits of Highly...</text>
+  <text x="960" y="354" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">Stephen Covey</text>
+  <text x="916" y="385" font-family="Arial, sans-serif" font-size="12" fill="#f59e0b">★★★☆☆</text>
+  <text x="1120" y="385" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="end">May 2026</text>
+
+  <!-- Book 7 -->
+  <rect x="900" y="420" width="240" height="105" rx="8" fill="#f8fafc" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="916" y="433" width="32" height="44" rx="4" fill="#10b981" opacity="0.15"/>
+  <text x="932" y="461" font-family="Arial, sans-serif" font-size="11" fill="#10b981" text-anchor="middle" font-weight="bold">P</text>
+  <text x="960" y="451" font-family="Arial, sans-serif" font-size="13" fill="#111827" font-weight="bold">Psychology of Money</text>
+  <text x="960" y="469" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">Morgan Housel</text>
+  <text x="916" y="500" font-family="Arial, sans-serif" font-size="12" fill="#f59e0b">★★★★☆</text>
+  <text x="1120" y="500" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="end">Apr 2026</text>
+
+  <!-- Book 8 -->
+  <rect x="900" y="535" width="240" height="105" rx="8" fill="#f8fafc" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="916" y="548" width="32" height="44" rx="4" fill="#10b981" opacity="0.15"/>
+  <text x="932" y="576" font-family="Arial, sans-serif" font-size="11" fill="#10b981" text-anchor="middle" font-weight="bold">E</text>
+  <text x="960" y="566" font-family="Arial, sans-serif" font-size="13" fill="#111827" font-weight="bold">Ego is the Enemy</text>
+  <text x="960" y="584" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">Ryan Holiday</text>
+  <text x="916" y="615" font-family="Arial, sans-serif" font-size="12" fill="#f59e0b">★★★★★</text>
+  <text x="1120" y="615" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="end">Mar 2026</text>
+</svg>

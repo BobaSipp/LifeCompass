@@ -1,0 +1,95 @@
+{
+  "project_name": "Financial & Life Logger Dashboard",
+  "theme": "Light",
+  "archetype": "Archetype 4 (Swiss & High-Contrast / Utility)",
+  "design_philosophy": "Utilitarian, distraction-free, hyper-functional. Color is used strictly as a functional indicator (e.g., green for success), not for decoration. Massive whitespace and stark contrast.",
+  "typography": {
+    "primary_family": "Satoshi",
+    "secondary_family": "JetBrains Mono",
+    "hierarchy": {
+      "h1": "text-4xl lg:text-5xl font-black tracking-tighter text-gray-900",
+      "h2": "text-2xl lg:text-3xl font-bold tracking-tight text-gray-900",
+      "h3": "text-xl font-semibold tracking-tight text-gray-800",
+      "body": "text-base font-medium text-gray-600 leading-relaxed",
+      "numbers_and_stats": "font-mono font-medium tracking-tight text-gray-900",
+      "labels": "text-xs font-bold uppercase tracking-[0.2em] text-gray-500"
+    }
+  },
+  "colors": {
+    "background": "#FFFFFF",
+    "surface": "#F9FAFB",
+    "border": "#E5E7EB",
+    "text": {
+      "primary": "#111827",
+      "secondary": "#4B5563",
+      "muted": "#9CA3AF"
+    },
+    "functional": {
+      "success": "#059669",
+      "success_bg": "#D1FAE5",
+      "error": "#DC2626",
+      "warning": "#D97706",
+      "neutral_lived": "#374151",
+      "neutral_unlived": "#F3F4F6"
+    }
+  },
+  "layout_and_spacing": {
+    "global": "Mobile-first responsive. Flex or Grid layouts. No jagged bottoms.",
+    "sidebar": "Fixed left, w-64, pure white, right border (border-gray-200). Generous internal padding (p-6).",
+    "main_content": "ml-64 (desktop), generous padding (p-8 to p-12). Maximum width limits on reading containers.",
+    "dashboard_grid": "The 'Control Room' Grid: grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6.",
+    "surfaces": "Flat UI. No shadows (or very faint ambient shadow). 1px solid borders for definition. Corner radius: rounded-md max."
+  },
+  "components": {
+    "navigation": "Left sidebar with clear active states (bg-gray-100 text-gray-900).",
+    "cards": "border border-gray-200 bg-white p-6 rounded-md. Strict padding.",
+    "buttons": "Primary: bg-gray-900 text-white hover:bg-gray-800. Secondary: bg-white border border-gray-200 text-gray-900 hover:bg-gray-50.",
+    "inputs": "Shadcn UI standard, border-gray-200, focus:ring-gray-900 focus:border-gray-900."
+  },
+  "features_specifications": {
+    "life_in_weeks": {
+      "description": "Grid visualizing entire lifespan in weeks.",
+      "layout": "Dense grid mapping ~80 years (52 cols x 80 rows).",
+      "styling": "w-2 h-2 or w-3 h-3 squares. gap-1 or gap-[2px].",
+      "colors": "Lived weeks: bg-gray-800. Unlived weeks: bg-gray-100. Current week: animate-pulse bg-gray-400."
+    },
+    "daily_log_calendar": {
+      "description": "Traditional boxes in a calendar view for daily reflection.",
+      "logic": "Color is NOT fully green unless tasks are set before 9AM and all completed.",
+      "colors": "Success (Green): bg-emerald-600. Partial/Fail: bg-gray-200 or border only."
+    },
+    "habit_and_workout_logger": {
+      "description": "Daily checklist for tasks and workouts.",
+      "ui": "Clean, border-bottom separated list items. Custom large hit-area checkboxes."
+    },
+    "daily_reflection": {
+      "description": "Text areas for 'What I did right' and 'What I did wrong'.",
+      "ui": "Minimalist textareas with auto-resize, sans-serif or mono typography."
+    },
+    "financial_tracker": {
+      "description": "Net worth, savings accounts, APY, income, expenses.",
+      "typography": "MUST use JetBrains Mono for all numeric values.",
+      "default_state": "Start at 0 for all stats initially.",
+      "charts": "Recharts line/area chart. Monochrome lines (black/gray) with subtle fills."
+    },
+    "auth_and_roles": {
+      "description": "Owner vs Viewer states.",
+      "logic": "Owner can edit inputs, add tasks, modify finances. Viewers see a read-only, seamless dashboard without edit buttons or disabled states."
+    }
+  },
+  "testing_and_accessibility": {
+    "data_testids": "MANDATORY. Every interactive element, form, and major visual block must have a data-testid (e.g., data-testid='life-in-weeks-grid', data-testid='financial-stat-networth').",
+    "contrast": "All text must pass WCAG AA. Gray-400 or lighter should not be used for essential text.",
+    "focus_states": "Visible focus rings (focus:ring-2 focus:ring-gray-900 focus:ring-offset-2) on all interactive elements."
+  },
+  "icons_and_assets": {
+    "library": "lucide-react",
+    "style": "Stroke width 1.5, standard sizing (w-5 h-5 for nav, w-4 h-4 for inline)."
+  },
+  "tech_stack": {
+    "framework": "React.js (Vite/Next depending on environment)",
+    "styling": "Tailwind CSS",
+    "components": "shadcn/ui (customized to remove generic styling)",
+    "charts": "Recharts"
+  }
+}

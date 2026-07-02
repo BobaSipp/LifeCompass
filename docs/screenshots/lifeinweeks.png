@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <filter id="shadow1"><feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.05"/></filter>
+    <filter id="shadow2"><feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.08"/></filter>
+    <filter id="glow"><feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#4ecca3" flood-opacity="0.5"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="#f1f5f9"/>
+
+  <!-- Browser Chrome -->
+  <rect x="0" y="0" width="1200" height="36" fill="#e2e8f0"/>
+  <rect x="0" y="36" width="1200" height="1" fill="#cbd5e1"/>
+  <circle cx="16" cy="18" r="5" fill="#ef4444"/>
+  <circle cx="30" cy="18" r="5" fill="#f59e0b"/>
+  <circle cx="44" cy="18" r="5" fill="#10b981"/>
+  <rect x="120" y="10" width="300" height="16" rx="8" fill="#cbd5e1"/>
+  <text x="270" y="22" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">localhost:3000/life</text>
+
+  <!-- Sidebar -->
+  <rect x="0" y="37" width="256" height="763" fill="#1a1a2e"/>
+
+  <circle cx="128" cy="85" r="28" fill="#e94560" opacity="0.15"/>
+  <circle cx="128" cy="85" r="24" fill="#1a1a2e" stroke="#e94560" stroke-width="2"/>
+  <text x="128" y="91" font-family="Arial, sans-serif" font-size="18" fill="#e94560" text-anchor="middle" font-weight="bold">RS</text>
+  <text x="128" y="130" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">Remco Stroop</text>
+  <text x="128" y="148" font-family="Arial, sans-serif" font-size="9" fill="#e94560" text-anchor="middle" letter-spacing="1">PROGRESS TO SUCCESS</text>
+  <line x1="40" y1="160" x2="216" y2="160" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <g font-family="Arial, sans-serif" font-size="13" fill="#a0aec0">
+    <text x="48" y="201">Dashboard</text>
+    <text x="48" y="247">Daily Log</text>
+    <!-- Life in Weeks - Active -->
+    <rect x="12" y="268" width="232" height="36" rx="6" fill="#e94560" opacity="0.15"/>
+    <text x="48" y="291" fill="#e94560" font-weight="bold">Life in Weeks</text>
+    <text x="48" y="337">Finances</text>
+    <text x="48" y="383">Trading</text>
+    <text x="48" y="429">Business</text>
+    <text x="48" y="475">Growth</text>
+    <text x="48" y="521">Mental</text>
+    <text x="48" y="567">Relationships</text>
+    <text x="48" y="613">Books</text>
+  </g>
+
+  <g>
+    <rect x="28" y="191" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="237" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="281" width="12" height="12" rx="3" fill="#e94560"/>
+    <rect x="28" y="327" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="373" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="419" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="465" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="511" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="557" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="603" width="12" height="12" rx="3" fill="#a0aec0"/>
+  </g>
+
+  <!-- Main content -->
+  <rect x="256" y="37" width="944" height="763" fill="#f8fafc"/>
+
+  <!-- PageHeader -->
+  <rect x="256" y="37" width="944" height="90" fill="#ffffff" filter="url(#shadow1)"/>
+  <rect x="280" y="55" width="72" height="18" rx="9" fill="#e94560" opacity="0.1"/>
+  <text x="316" y="68" font-family="Arial, sans-serif" font-size="10" fill="#e94560" text-anchor="middle" font-weight="bold">MORTALITY</text>
+  <text x="280" y="100" font-family="Arial, sans-serif" font-size="22" fill="#111827" font-weight="bold">Life in Weeks</text>
+  <text x="280" y="118" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">Each square is one week of your life. Make them count.</text>
+
+  <!-- Settings gear -->
+  <circle cx="1150" cy="80" r="16" fill="#f3f4f6"/>
+  <text x="1150" y="86" font-family="Arial, sans-serif" font-size="16" fill="#6b7280" text-anchor="middle">⚙</text>
+
+  <!-- Metric Cards Row -->
+  <rect x="280" y="155" width="205" height="80" rx="10" fill="#ffffff" filter="url(#shadow2)"/>
+  <text x="300" y="178" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Current Age</text>
+  <text x="300" y="210" font-family="Arial, sans-serif" font-size="22" fill="#111827" font-weight="bold">35.6 yrs</text>
+
+  <rect x="500" y="155" width="205" height="80" rx="10" fill="#ffffff" filter="url(#shadow2)"/>
+  <text x="520" y="178" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Weeks Lived</text>
+  <text x="520" y="200" font-family="Arial, sans-serif" font-size="22" fill="#111827" font-weight="bold">1,854</text>
+  <text x="520" y="220" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">35.2%</text>
+
+  <rect x="720" y="155" width="205" height="80" rx="10" fill="#ffffff" filter="url(#shadow2)"/>
+  <text x="740" y="178" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Weeks Left</text>
+  <text x="740" y="200" font-family="Arial, sans-serif" font-size="22" fill="#111827" font-weight="bold">3,416</text>
+  <text x="740" y="220" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">64.8%</text>
+
+  <rect x="940" y="155" width="205" height="80" rx="10" fill="#ffffff" filter="url(#shadow2)"/>
+  <text x="960" y="178" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Lifespan</text>
+  <text x="960" y="210" font-family="Arial, sans-serif" font-size="22" fill="#111827" font-weight="bold">85 yrs</text>
+
+  <!-- Life in Weeks Grid -->
+  <rect x="280" y="255" width="860" height="440" rx="10" fill="#ffffff" filter="url(#shadow2)"/>
+
+  <!-- Legend -->
+  <g transform="translate(300, 275)">
+    <rect x="0" y="0" width="12" height="12" rx="2" fill="#1a1a2e"/>
+    <text x="16" y="10" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">Lived</text>
+    <rect x="60" y="0" width="12" height="12" rx="2" fill="#4ecca3" filter="url(#glow)"/>
+    <text x="76" y="10" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">This week</text>
+    <rect x="145" y="0" width="12" height="12" rx="2" fill="#e5e7eb"/>
+    <text x="161" y="10" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">Ahead</text>
+  </g>
+
+  <!-- Grid: 52 weeks x 85 years. We'll show from age 0 to ~85. -->
+  <!-- We need year labels on the left column -->
+  <g transform="translate(280, 295)">
+    <!-- Year labels -->
+    <g font-family="Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="end">
+      <text x="-8" y="8">0</text>
+      <text x="-8" y="38">5</text>
+      <text x="-8" y="68">10</text>
+      <text x="-8" y="98">15</text>
+      <text x="-8" y="128">20</text>
+      <text x="-8" y="158">25</text>
+      <text x="-8" y="188">30</text>
+      <text x="-8" y="218">35</text>
+      <text x="-8" y="248">40</text>
+      <text x="-8" y="278">45</text>
+      <text x="-8" y="308">50</text>
+      <text x="-8" y="338">55</text>
+      <text x="-8" y="368">60</text>
+      <text x="-8" y="398">65</text>
+      <text x="-8" y="428">70</text>
+      <text x="-8" y="458">75</text>
+      <text x="-8" y="488">80</text>
+      <text x="-8" y="518">85</text>
+    </g>
+
+    <!-- Generate the grid of weeks.
+         Lived weeks (35.6 years = 35 full years + ~31 weeks)
+         Current week is the one being highlighted
+         Each row = 1 year = 52 weeks
+         Each year row: 52 squares of 7x7, 2px gap
+    -->
+    <g>
+      <!-- Helper: each square is 7x7, gap 1px between = 8px per week, 52*8 = 416px wide. That's too wide for our 860px container. Let's use 6x6 squares with 1px gap = 7px per week, 52*7 = 364px wide. That's better. -->
+      <!-- We'll generate rows for years 0-85 (86 rows).
+           For lived years (0-34): all squares filled
+           Year 35 (current year): first 31 weeks filled, week 32 = current, rest light
+           Years 36-85: all light -->
+      <g>
+        <!-- Lived years -->
+        <g fill="#1a1a2e">
+          <!-- Years 0-34: all 52 weeks filled -->
+          <rect x="0" y="0" width="6" height="6" rx="1"/><rect x="7" y="0" width="6" height="6" rx="1"/><rect x="14" y="0" width="6" height="6" rx="1"/>
+          <rect x="21" y="0" width="6" height="6" rx="1"/><rect x="28" y="0" width="6" height="6" rx="1"/><rect x="35" y="0" width="6" height="6" rx="1"/>
+          <rect x="42" y="0" width="6" height="6" rx="1"/><rect x="49" y="0" width="6" height="6" rx="1"/><rect x="56" y="0" width="6" height="6" rx="1"/>
+          <rect x="63" y="0" width="6" height="6" rx="1"/><rect x="70" y="0" width="6" height="6" rx="1"/><rect x="77" y="0" width="6" height="6" rx="1"/>
+          <rect x="84" y="0" width="6" height="6" rx="1"/><rect x="91" y="0" width="6" height="6" rx="1"/><rect x="98" y="0" width="6" height="6" rx="1"/>
+          <rect x="105" y="0" width="6" height="6" rx="1"/><rect x="112" y="0" width="6" height="6" rx="1"/><rect x="119" y="0" width="6" height="6" rx="1"/>
+          <rect x="126" y="0" width="6" height="6" rx="1"/><rect x="133" y="0" width="6" height="6" rx="1"/><rect x="140" y="0" width="6" height="6" rx="1"/>
+          <rect x="147" y="0" width="6" height="6" rx="1"/><rect x="154" y="0" width="6" height="6" rx="1"/><rect x="161" y="0" width="6" height="6" rx="1"/>
+          <rect x="168" y="0" width="6" height="6" rx="1"/><rect x="175" y="0" width="6" height="6" rx="1"/><rect x="182" y="0" width="6" height="6" rx="1"/>
+          <rect x="189" y="0" width="6" height="6" rx="1"/><rect x="196" y="0" width="6" height="6" rx="1"/><rect x="203" y="0" width="6" height="6" rx="1"/>
+          <rect x="210" y="0" width="6" height="6" rx="1"/><rect x="217" y="0" width="6" height="6" rx="1"/><rect x="224" y="0" width="6" height="6" rx="1"/>
+          <rect x="231" y="0" width="6" height="6" rx="1"/><rect x="238" y="0" width="6" height="6" rx="1"/><rect x="245" y="0" width="6" height="6" rx="1"/>
+          <rect x="252" y="0" width="6" height="6" rx="1"/><rect x="259" y="0" width="6" height="6" rx="1"/><rect x="266" y="0" width="6" height="6" rx="1"/>
+          <rect x="273" y="0" width="6" height="6" rx="1"/><rect x="280" y="0" width="6" height="6" rx="1"/><rect x="287" y="0" width="6" height="6" rx="1"/>
+          <rect x="294" y="0" width="6" height="6" rx="1"/><rect x="301" y="0" width="6" height="6" rx="1"/><rect x="308" y="0" width="6" height="6" rx="1"/>
+          <rect x="315" y="0" width="6" height="6" rx="1"/><rect x="322" y="0" width="6" height="6" rx="1"/><rect x="329" y="0" width="6" height="6" rx="1"/>
+          <rect x="336" y="0" width="6" height="6" rx="1"/><rect x="343" y="0" width="6" height="6" rx="1"/><rect x="350" y="0" width="6" height="6" rx="1"/>
+          <rect x="357" y="0" width="6" height="6" rx="1"/>
+        </g>
+
+        <!-- We need to repeat for all 86 rows. Let me use a simpler approach - just create a repeating pattern visually as text squares.
+             Actually, since SVG doesn't support loops, I'll just generate enough squares to look realistic.
+             For a life in weeks view, I'll create the first few rows manually and then use a pattern for the rest. -->
+
+        <!-- Let me use a more efficient approach - use SVG pattern or just create a representative grid -->
+        <!-- Actually, for clarity and realism, let me just generate representative rows -->
+      </g>
+    </g>
+  </g>
+
+  <!-- Since generating 86*52 squares is impractical in SVG, I'll create a visually representative grid using a pattern approach -->
+  <g transform="translate(296, 295)">
+    <!-- Use a pattern for the week grid -->
+    <defs>
+      <pattern id="weekLived" width="7" height="7" patternUnits="userSpaceOnUse">
+        <rect width="6" height="6" rx="1" fill="#1a1a2e"/>
+      </pattern>
+      <pattern id="weekFuture" width="7" height="7" patternUnits="userSpaceOnUse">
+        <rect width="6" height="6" rx="1" fill="#e5e7eb"/>
+      </pattern>
+    </defs>
+
+    <!-- Create a realistic visual by drawing rows with the patterns -->
+    <!-- Years 0-34 (35 rows): all lived -->
+    <rect width="364" height="245" fill="url(#weekLived)"/>
+
+    <!-- Year 35 (row 36): 31 lived + 1 current + 20 future -->
+    <rect width="217" height="7" fill="url(#weekLived)"/>
+    <rect x="217" y="0" width="6" height="6" rx="1" fill="#4ecca3" filter="url(#glow)"/>
+    <rect x="224" y="0" width="140" height="7" fill="url(#weekFuture)"/>
+
+    <!-- Years 36-85 (50 rows): future -->
+    <rect y="7" width="364" height="350" fill="url(#weekFuture)"/>
+  </g>
+</svg>

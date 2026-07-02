@@ -1,0 +1,252 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <filter id="shadow1"><feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.05"/></filter>
+    <filter id="shadow2"><feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.08"/></filter>
+    <linearGradient id="barGreen" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#10b981"/><stop offset="100%" stop-color="#4ecca3"/></linearGradient>
+    <linearGradient id="barAmber" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#fbbf24"/></linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f1f5f9"/>
+
+  <!-- Browser Chrome -->
+  <rect x="0" y="0" width="1200" height="36" fill="#e2e8f0"/>
+  <rect x="0" y="36" width="1200" height="1" fill="#cbd5e1"/>
+  <circle cx="16" cy="18" r="5" fill="#ef4444"/>
+  <circle cx="30" cy="18" r="5" fill="#f59e0b"/>
+  <circle cx="44" cy="18" r="5" fill="#10b981"/>
+  <rect x="120" y="10" width="300" height="16" rx="8" fill="#cbd5e1"/>
+  <text x="270" y="22" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">localhost:3000/daily</text>
+
+  <!-- Sidebar -->
+  <rect x="0" y="37" width="256" height="763" fill="#1a1a2e"/>
+
+  <!-- Sidebar header -->
+  <circle cx="128" cy="85" r="28" fill="#e94560" opacity="0.15"/>
+  <circle cx="128" cy="85" r="24" fill="#1a1a2e" stroke="#e94560" stroke-width="2"/>
+  <text x="128" y="91" font-family="Arial, sans-serif" font-size="18" fill="#e94560" text-anchor="middle" font-weight="bold">RS</text>
+  <text x="128" y="130" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">Remco Stroop</text>
+  <text x="128" y="148" font-family="Arial, sans-serif" font-size="9" fill="#e94560" text-anchor="middle" letter-spacing="1">PROGRESS TO SUCCESS</text>
+  <line x1="40" y1="160" x2="216" y2="160" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <!-- Nav items -->
+  <g font-family="Arial, sans-serif" font-size="13" fill="#a0aec0">
+    <text x="48" y="201">Dashboard</text>
+    <!-- Daily Log - Active -->
+    <rect x="12" y="222" width="232" height="36" rx="6" fill="#e94560" opacity="0.15"/>
+    <text x="48" y="245" fill="#e94560" font-weight="bold">Daily Log</text>
+    <text x="48" y="291">Life in Weeks</text>
+    <text x="48" y="337">Finances</text>
+    <text x="48" y="383">Trading</text>
+    <text x="48" y="429">Business</text>
+    <text x="48" y="475">Growth</text>
+    <text x="48" y="521">Mental</text>
+    <text x="48" y="567">Relationships</text>
+    <text x="48" y="613">Books</text>
+  </g>
+
+  <!-- Sidebar icons -->
+  <g>
+    <rect x="28" y="191" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="235" width="12" height="12" rx="3" fill="#e94560"/>
+    <rect x="28" y="281" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="327" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="373" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="419" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="465" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="511" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="557" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="603" width="12" height="12" rx="3" fill="#a0aec0"/>
+  </g>
+
+  <!-- Main content -->
+  <rect x="256" y="37" width="944" height="763" fill="#f8fafc"/>
+
+  <!-- PageHeader -->
+  <rect x="256" y="37" width="944" height="90" rx="0" fill="#ffffff" filter="url(#shadow1)"/>
+  <rect x="280" y="55" width="72" height="18" rx="9" fill="#e94560" opacity="0.1"/>
+  <text x="316" y="68" font-family="Arial, sans-serif" font-size="10" fill="#e94560" text-anchor="middle" font-weight="bold">DISCIPLINE</text>
+  <text x="280" y="100" font-family="Arial, sans-serif" font-size="22" fill="#111827" font-weight="bold">Daily Log</text>
+  <text x="280" y="118" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">Track each day. The 9AM rule keeps you accountable — green means complete before 9AM.</text>
+
+  <!-- Left: Monthly Calendar -->
+  <rect x="280" y="155" width="420" height="340" rx="10" fill="#ffffff" filter="url(#shadow2)"/>
+  <text x="300" y="180" font-family="Arial, sans-serif" font-size="16" fill="#111827" font-weight="bold">July 2026</text>
+
+  <!-- Calendar grid -->
+  <g font-family="Arial, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">
+    <!-- Day headers -->
+    <text x="310" y="205">Mon</text>
+    <text x="370" y="205">Tue</text>
+    <text x="430" y="205">Wed</text>
+    <text x="490" y="205">Thu</text>
+    <text x="550" y="205">Fri</text>
+    <text x="610" y="205">Sat</text>
+    <text x="670" y="205">Sun</text>
+  </g>
+
+  <!-- Calendar days - July 2026 starts on Wednesday -->
+  <!-- Week 1: Wed 1, Thu 2, Fri 3, Sat 4, Sun 5 -->
+  <g font-family="Arial, sans-serif" font-size="13" fill="#111827" text-anchor="middle">
+    <rect x="418" y="215" width="36" height="36" rx="8" fill="#4ecca3"/>
+    <text x="436" y="239" fill="#ffffff" font-weight="bold">1</text>
+
+    <rect x="478" y="215" width="36" height="36" rx="8" fill="#4ecca3" stroke="#e94560" stroke-width="2"/>
+    <text x="496" y="239" fill="#ffffff" font-weight="bold">2</text>
+
+    <rect x="538" y="215" width="36" height="36" rx="8" fill="#d1fae5"/>
+    <text x="556" y="239">3</text>
+
+    <rect x="598" y="215" width="36" height="36" rx="8" fill="#fee7a0"/>
+    <text x="616" y="239">4</text>
+
+    <rect x="658" y="215" width="36" height="36" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="676" y="239">5</text>
+
+    <!-- Week 2 -->
+    <rect x="298" y="261" width="36" height="36" rx="8" fill="#4ecca3"/>
+    <text x="316" y="285" fill="#ffffff" font-weight="bold">6</text>
+
+    <rect x="358" y="261" width="36" height="36" rx="8" fill="#4ecca3"/>
+    <text x="376" y="285" fill="#ffffff" font-weight="bold">7</text>
+
+    <rect x="418" y="261" width="36" height="36" rx="8" fill="#d1fae5"/>
+    <text x="436" y="285">8</text>
+
+    <rect x="478" y="261" width="36" height="36" rx="8" fill="#4ecca3"/>
+    <text x="496" y="285" fill="#ffffff" font-weight="bold">9</text>
+
+    <rect x="538" y="261" width="36" height="36" rx="8" fill="#fee7a0"/>
+    <text x="556" y="285">10</text>
+
+    <rect x="598" y="261" width="36" height="36" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="616" y="285">11</text>
+
+    <rect x="658" y="261" width="36" height="36" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="676" y="285">12</text>
+
+    <!-- Week 3 -->
+    <rect x="298" y="307" width="36" height="36" rx="8" fill="#4ecca3"/>
+    <text x="316" y="331" fill="#ffffff" font-weight="bold">13</text>
+
+    <rect x="358" y="307" width="36" height="36" rx="8" fill="#d1fae5"/>
+    <text x="376" y="331">14</text>
+
+    <rect x="418" y="307" width="36" height="36" rx="8" fill="#4ecca3"/>
+    <text x="436" y="331" fill="#ffffff" font-weight="bold">15</text>
+
+    <rect x="478" y="307" width="36" height="36" rx="8" fill="#4ecca3"/>
+    <text x="496" y="331" fill="#ffffff" font-weight="bold">16</text>
+
+    <rect x="538" y="307" width="36" height="36" rx="8" fill="#fee7a0"/>
+    <text x="556" y="331">17</text>
+
+    <rect x="598" y="307" width="36" height="36" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="616" y="331">18</text>
+
+    <rect x="658" y="307" width="36" height="36" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="676" y="331">19</text>
+
+    <!-- Week 4 -->
+    <rect x="298" y="353" width="36" height="36" rx="8" fill="#4ecca3"/>
+    <text x="316" y="377" fill="#ffffff" font-weight="bold">20</text>
+
+    <rect x="358" y="353" width="36" height="36" rx="8" fill="#4ecca3"/>
+    <text x="376" y="377" fill="#ffffff" font-weight="bold">21</text>
+
+    <rect x="418" y="353" width="36" height="36" rx="8" fill="#d1fae5"/>
+    <text x="436" y="377">22</text>
+
+    <rect x="478" y="353" width="36" height="36" rx="8" fill="#fee7a0"/>
+    <text x="496" y="377">23</text>
+
+    <rect x="538" y="353" width="36" height="36" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="556" y="377">24</text>
+
+    <rect x="598" y="353" width="36" height="36" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="616" y="377">25</text>
+
+    <rect x="658" y="353" width="36" height="36" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="676" y="377">26</text>
+
+    <!-- Week 5 -->
+    <rect x="298" y="399" width="36" height="36" rx="8" fill="#4ecca3"/>
+    <text x="316" y="423" fill="#ffffff" font-weight="bold">27</text>
+
+    <rect x="358" y="399" width="36" height="36" rx="8" fill="#4ecca3"/>
+    <text x="376" y="423" fill="#ffffff" font-weight="bold">28</text>
+
+    <rect x="418" y="399" width="36" height="36" rx="8" fill="#d1fae5"/>
+    <text x="436" y="423">29</text>
+
+    <rect x="478" y="399" width="36" height="36" rx="8" fill="#4ecca3"/>
+    <text x="496" y="423" fill="#ffffff" font-weight="bold">30</text>
+
+    <rect x="538" y="399" width="36" height="36" rx="8" fill="#fee7a0"/>
+    <text x="556" y="423">31</text>
+  </g>
+
+  <!-- Calendar Legend -->
+  <g transform="translate(280, 460)">
+    <text x="0" y="12" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">Legend:</text>
+    <rect x="60" y="0" width="14" height="14" rx="3" fill="#4ecca3"/>
+    <text x="80" y="11" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">Fully green</text>
+    <rect x="160" y="0" width="14" height="14" rx="3" fill="#d1fae5"/>
+    <text x="180" y="11" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">Partial</text>
+    <rect x="240" y="0" width="14" height="14" rx="3" fill="#fee7a0"/>
+    <text x="260" y="11" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">Logged late</text>
+    <rect x="340" y="0" width="14" height="14" rx="3" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="360" y="11" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">Empty</text>
+  </g>
+
+  <!-- Right: Day Editor -->
+  <rect x="720" y="155" width="460" height="480" rx="10" fill="#ffffff" filter="url(#shadow2)"/>
+  <rect x="740" y="170" width="120" height="22" rx="11" fill="#4ecca3" opacity="0.15"/>
+  <text x="800" y="185" font-family="Arial, sans-serif" font-size="10" fill="#10b981" text-anchor="middle" font-weight="bold">Fully green</text>
+  <text x="740" y="210" font-family="Arial, sans-serif" font-size="18" fill="#111827" font-weight="bold">Thursday, 2 July</text>
+
+  <rect x="740" y="225" width="420" height="32" rx="6" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1"/>
+  <text x="750" y="246" font-family="Arial, sans-serif" font-size="12" fill="#3b82f6">⏰ Before 9AM — set tasks now</text>
+
+  <!-- Daily Tasks Section -->
+  <text x="740" y="280" font-family="Arial, sans-serif" font-size="14" fill="#111827" font-weight="bold">Daily Tasks</text>
+
+  <rect x="740" y="295" width="16" height="16" rx="4" fill="#10b981"/>
+  <text x="742" y="307" font-family="Arial, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle">✓</text>
+  <text x="766" y="307" font-family="Arial, sans-serif" font-size="13" fill="#6b7280" text-decoration="line-through">Meditate 10 minutes</text>
+  <rect x="900" y="296" width="40" height="14" rx="7" fill="#e0f2fe"/>
+  <text x="920" y="307" font-family="Arial, sans-serif" font-size="9" fill="#3b82f6" text-anchor="middle">Health</text>
+
+  <rect x="740" y="323" width="16" height="16" rx="4" fill="#10b981"/>
+  <text x="742" y="335" font-family="Arial, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle">✓</text>
+  <text x="766" y="335" font-family="Arial, sans-serif" font-size="13" fill="#6b7280" text-decoration="line-through">Complete project report</text>
+  <rect x="940" y="324" width="36" height="14" rx="7" fill="#fef3c7"/>
+  <text x="958" y="335" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b" text-anchor="middle">Work</text>
+
+  <rect x="740" y="351" width="16" height="16" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="766" y="363" font-family="Arial, sans-serif" font-size="13" fill="#111827">Read 20 pages of a book</text>
+  <rect x="920" y="352" width="50" height="14" rx="7" fill="#f3e8ff"/>
+  <text x="945" y="363" font-family="Arial, sans-serif" font-size="9" fill="#9333ea" text-anchor="middle">Personal</text>
+
+  <!-- Workout Section -->
+  <text x="740" y="400" font-family="Arial, sans-serif" font-size="14" fill="#111827" font-weight="bold">Workout</text>
+
+  <rect x="740" y="415" width="16" height="16" rx="4" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="766" y="427" font-family="Arial, sans-serif" font-size="13" fill="#111827">Gym - upper body</text>
+  <rect x="880" y="416" width="50" height="14" rx="7" fill="#d1fae5"/>
+  <text x="905" y="427" font-family="Arial, sans-serif" font-size="9" fill="#10b981" text-anchor="middle">Fitness</text>
+
+  <!-- What I did right -->
+  <text x="740" y="465" font-family="Arial, sans-serif" font-size="14" fill="#111827" font-weight="bold">What I did right</text>
+  <rect x="740" y="478" width="420" height="48" rx="6" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="750" y="496" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Woke up at 6AM, did my morning routine and went to the gym before work. Completed the project report ahead of deadline.</text>
+
+  <!-- What I did wrong -->
+  <text x="740" y="544" font-family="Arial, sans-serif" font-size="14" fill="#111827" font-weight="bold">What I did wrong</text>
+  <rect x="740" y="557" width="420" height="48" rx="6" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="750" y="575" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Skipped reading in the evening. Need to be more consistent with winding down before bed.</text>
+
+  <!-- Save button -->
+  <rect x="1040" y="615" width="120" height="34" rx="8" fill="#e94560"/>
+  <text x="1100" y="637" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">Save day</text>
+</svg>

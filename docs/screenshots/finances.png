@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <filter id="shadow1"><feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.05"/></filter>
+    <filter id="shadow2"><feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.08"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="#f1f5f9"/>
+
+  <!-- Browser Chrome -->
+  <rect x="0" y="0" width="1200" height="36" fill="#e2e8f0"/>
+  <rect x="0" y="36" width="1200" height="1" fill="#cbd5e1"/>
+  <circle cx="16" cy="18" r="5" fill="#ef4444"/>
+  <circle cx="30" cy="18" r="5" fill="#f59e0b"/>
+  <circle cx="44" cy="18" r="5" fill="#10b981"/>
+  <rect x="120" y="10" width="300" height="16" rx="8" fill="#cbd5e1"/>
+  <text x="270" y="22" font-family="Arial, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">localhost:3000/finances</text>
+
+  <!-- Sidebar -->
+  <rect x="0" y="37" width="256" height="763" fill="#1a1a2e"/>
+  <circle cx="128" cy="85" r="28" fill="#e94560" opacity="0.15"/>
+  <circle cx="128" cy="85" r="24" fill="#1a1a2e" stroke="#e94560" stroke-width="2"/>
+  <text x="128" y="91" font-family="Arial, sans-serif" font-size="18" fill="#e94560" text-anchor="middle" font-weight="bold">RS</text>
+  <text x="128" y="130" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">Remco Stroop</text>
+  <text x="128" y="148" font-family="Arial, sans-serif" font-size="9" fill="#e94560" text-anchor="middle" letter-spacing="1">PROGRESS TO SUCCESS</text>
+  <line x1="40" y1="160" x2="216" y2="160" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <g font-family="Arial, sans-serif" font-size="13" fill="#a0aec0">
+    <text x="48" y="201">Dashboard</text>
+    <text x="48" y="247">Daily Log</text>
+    <text x="48" y="293">Life in Weeks</text>
+    <!-- Finances - Active -->
+    <rect x="12" y="314" width="232" height="36" rx="6" fill="#e94560" opacity="0.15"/>
+    <text x="48" y="337" fill="#e94560" font-weight="bold">Finances</text>
+    <text x="48" y="383">Trading</text>
+    <text x="48" y="429">Business</text>
+    <text x="48" y="475">Growth</text>
+    <text x="48" y="521">Mental</text>
+    <text x="48" y="567">Relationships</text>
+    <text x="48" y="613">Books</text>
+  </g>
+
+  <g>
+    <rect x="28" y="191" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="237" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="283" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="327" width="12" height="12" rx="3" fill="#e94560"/>
+    <rect x="28" y="373" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="419" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="465" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="511" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="557" width="12" height="12" rx="3" fill="#a0aec0"/>
+    <rect x="28" y="603" width="12" height="12" rx="3" fill="#a0aec0"/>
+  </g>
+
+  <!-- Main content -->
+  <rect x="256" y="37" width="944" height="763" fill="#f8fafc"/>
+
+  <!-- PageHeader -->
+  <rect x="256" y="37" width="944" height="90" fill="#ffffff" filter="url(#shadow1)"/>
+  <rect x="280" y="55" width="60" height="18" rx="9" fill="#e94560" opacity="0.1"/>
+  <text x="310" y="68" font-family="Arial, sans-serif" font-size="10" fill="#e94560" text-anchor="middle" font-weight="bold">WEALTH</text>
+  <text x="280" y="100" font-family="Arial, sans-serif" font-size="22" fill="#111827" font-weight="bold">Finances</text>
+  <text x="280" y="118" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">Savings, APY, income and expenses — all in one place.</text>
+
+  <!-- 4 Summary Cards -->
+  <rect x="280" y="155" width="205" height="85" rx="10" fill="#ffffff" filter="url(#shadow2)"/>
+  <text x="300" y="178" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Total Savings</text>
+  <text x="300" y="203" font-family="Arial, sans-serif" font-size="20" fill="#111827" font-weight="bold">€34,200</text>
+  <text x="300" y="223" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">3 accounts</text>
+
+  <rect x="500" y="155" width="205" height="85" rx="10" fill="#ffffff" filter="url(#shadow2)"/>
+  <text x="520" y="178" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Interest / yr</text>
+  <text x="520" y="203" font-family="Arial, sans-serif" font-size="20" fill="#111827" font-weight="bold">€1,240</text>
+  <text x="520" y="223" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">3.2% APY</text>
+
+  <rect x="720" y="155" width="205" height="85" rx="10" fill="#ffffff" filter="url(#shadow2)"/>
+  <text x="740" y="178" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Income / mo</text>
+  <text x="740" y="203" font-family="Arial, sans-serif" font-size="20" fill="#10b981" font-weight="bold">€4,200</text>
+
+  <rect x="940" y="155" width="205" height="85" rx="10" fill="#ffffff" filter="url(#shadow2)"/>
+  <text x="960" y="178" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Expenses / mo</text>
+  <text x="960" y="203" font-family="Arial, sans-serif" font-size="20" fill="#ef4444" font-weight="bold">€2,050</text>
+
+  <!-- Savings Accounts section -->
+  <rect x="280" y="260" width="440" height="260" rx="10" fill="#ffffff" filter="url(#shadow2)"/>
+  <text x="300" y="285" font-family="Arial, sans-serif" font-size="16" fill="#111827" font-weight="bold">Savings Accounts</text>
+
+  <!-- Table header -->
+  <rect x="300" y="298" width="400" height="1" fill="#e5e7eb"/>
+  <g font-family="Arial, sans-serif" font-size="11" fill="#6b7280">
+    <text x="300" y="312">Account</text>
+    <text x="440" y="312">Balance</text>
+    <text x="530" y="312">APY</text>
+    <text x="660" y="312">Action</text>
+  </g>
+
+  <!-- Row 1 -->
+  <rect x="300" y="318" width="400" height="1" fill="#f3f4f6"/>
+  <text x="300" y="335" font-family="Arial, sans-serif" font-size="13" fill="#111827">Main Savings</text>
+  <text x="440" y="335" font-family="Arial, sans-serif" font-size="13" fill="#111827">€22,000</text>
+  <text x="530" y="335" font-family="Arial, sans-serif" font-size="13" fill="#10b981">3.5%</text>
+  <rect x="656" y="324" width="44" height="20" rx="4" fill="#fee2e2"/>
+  <text x="678" y="338" font-family="Arial, sans-serif" font-size="10" fill="#ef4444" text-anchor="middle">Delete</text>
+
+  <!-- Row 2 -->
+  <rect x="300" y="348" width="400" height="1" fill="#f3f4f6"/>
+  <text x="300" y="365" font-family="Arial, sans-serif" font-size="13" fill="#111827">Emergency Fund</text>
+  <text x="440" y="365" font-family="Arial, sans-serif" font-size="13" fill="#111827">€8,200</text>
+  <text x="530" y="365" font-family="Arial, sans-serif" font-size="13" fill="#10b981">2.8%</text>
+  <rect x="656" y="354" width="44" height="20" rx="4" fill="#fee2e2"/>
+  <text x="678" y="368" font-family="Arial, sans-serif" font-size="10" fill="#ef4444" text-anchor="middle">Delete</text>
+
+  <!-- Row 3 -->
+  <rect x="300" y="378" width="400" height="1" fill="#f3f4f6"/>
+  <text x="300" y="395" font-family="Arial, sans-serif" font-size="13" fill="#111827">Vacation Fund</text>
+  <text x="440" y="395" font-family="Arial, sans-serif" font-size="13" fill="#111827">€4,000</text>
+  <text x="530" y="395" font-family="Arial, sans-serif" font-size="13" fill="#10b981">2.5%</text>
+  <rect x="656" y="384" width="44" height="20" rx="4" fill="#fee2e2"/>
+  <text x="678" y="398" font-family="Arial, sans-serif" font-size="10" fill="#ef4444" text-anchor="middle">Delete</text>
+
+  <!-- Add account button -->
+  <rect x="300" y="418" width="130" height="30" rx="6" fill="#f0fdf4" stroke="#10b981" stroke-width="1"/>
+  <text x="365" y="438" font-family="Arial, sans-serif" font-size="12" fill="#10b981" text-anchor="middle" font-weight="bold">+ Add account</text>
+
+  <!-- Income & Expenses section -->
+  <rect x="740" y="260" width="440" height="320" rx="10" fill="#ffffff" filter="url(#shadow2)"/>
+  <text x="760" y="285" font-family="Arial, sans-serif" font-size="16" fill="#111827" font-weight="bold">Income &amp; Expenses</text>
+  <rect x="760" y="298" width="400" height="1" fill="#e5e7eb"/>
+
+  <g font-family="Arial, sans-serif" font-size="11" fill="#6b7280">
+    <text x="760" y="312">Date</text>
+    <text x="860" y="312">Description</text>
+    <text x="990" y="312">Category</text>
+    <text x="1120" y="312" text-anchor="end">Amount</text>
+  </g>
+
+  <!-- Transaction rows -->
+  <rect x="760" y="318" width="400" height="1" fill="#f3f4f6"/>
+  <text x="760" y="335" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">01 Jul</text>
+  <text x="860" y="335" font-family="Arial, sans-serif" font-size="13" fill="#111827">Salary deposit</text>
+  <rect x="982" y="325" width="44" height="14" rx="7" fill="#d1fae5"/>
+  <text x="1004" y="336" font-family="Arial, sans-serif" font-size="9" fill="#10b981" text-anchor="middle">Income</text>
+  <text x="1120" y="335" font-family="Arial, sans-serif" font-size="13" fill="#10b981" text-anchor="end" font-weight="bold">+€4,200</text>
+
+  <rect x="760" y="348" width="400" height="1" fill="#f3f4f6"/>
+  <text x="760" y="365" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">28 Jun</text>
+  <text x="860" y="365" font-family="Arial, sans-serif" font-size="13" fill="#111827">Rent payment</text>
+  <rect x="980" y="355" width="48" height="14" rx="7" fill="#fee2e2"/>
+  <text x="1004" y="366" font-family="Arial, sans-serif" font-size="9" fill="#ef4444" text-anchor="middle">Housing</text>
+  <text x="1120" y="365" font-family="Arial, sans-serif" font-size="13" fill="#ef4444" text-anchor="end" font-weight="bold">-€1,200</text>
+
+  <rect x="760" y="378" width="400" height="1" fill="#f3f4f6"/>
+  <text x="760" y="395" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">25 Jun</text>
+  <text x="860" y="395" font-family="Arial, sans-serif" font-size="13" fill="#111827">Grocery store</text>
+  <rect x="975" y="385" width="58" height="14" rx="7" fill="#fee2e2"/>
+  <text x="1004" y="396" font-family="Arial, sans-serif" font-size="9" fill="#ef4444" text-anchor="middle">Groceries</text>
+  <text x="1120" y="395" font-family="Arial, sans-serif" font-size="13" fill="#ef4444" text-anchor="end" font-weight="bold">-€320</text>
+
+  <rect x="760" y="408" width="400" height="1" fill="#f3f4f6"/>
+  <text x="760" y="425" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">22 Jun</text>
+  <text x="860" y="425" font-family="Arial, sans-serif" font-size="13" fill="#111827">Freelance project</text>
+  <rect x="982" y="415" width="44" height="14" rx="7" fill="#d1fae5"/>
+  <text x="1004" y="426" font-family="Arial, sans-serif" font-size="9" fill="#10b981" text-anchor="middle">Income</text>
+  <text x="1120" y="425" font-family="Arial, sans-serif" font-size="13" fill="#10b981" text-anchor="end" font-weight="bold">+€850</text>
+
+  <rect x="760" y="438" width="400" height="1" fill="#f3f4f6"/>
+  <text x="760" y="455" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">20 Jun</text>
+  <text x="860" y="455" font-family="Arial, sans-serif" font-size="13" fill="#111827">Restaurant dinner</text>
+  <rect x="972" y="445" width="64" height="14" rx="7" fill="#fee2e2"/>
+  <text x="1004" y="456" font-family="Arial, sans-serif" font-size="9" fill="#ef4444" text-anchor="middle">Dining out</text>
+  <text x="1120" y="455" font-family="Arial, sans-serif" font-size="13" fill="#ef4444" text-anchor="end" font-weight="bold">-€85</text>
+
+  <rect x="760" y="468" width="400" height="1" fill="#f3f4f6"/>
+  <text x="760" y="485" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">18 Jun</text>
+  <text x="860" y="485" font-family="Arial, sans-serif" font-size="13" fill="#111827">Electric bill</text>
+  <rect x="978" y="475" width="52" height="14" rx="7" fill="#fee2e2"/>
+  <text x="1004" y="486" font-family="Arial, sans-serif" font-size="9" fill="#ef4444" text-anchor="middle">Utilities</text>
+  <text x="1120" y="485" font-family="Arial, sans-serif" font-size="13" fill="#ef4444" text-anchor="end" font-weight="bold">-€145</text>
+</svg>
